@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 0.14"
 
   backend "remote" {
-    organization = "shahid-test"
+    organization = "vijayorg"
 
     workspaces {
-      name = "shahid-actions-demo"
+      name = "gh-actions-demo"
     }
   }
 }
