@@ -23,11 +23,11 @@ terraform {
 
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-2"
 }
  
 
 resource "aws_instance" "newec3" {
-  ami           = "ami-04db49c0fb2215364"
+  ami           = "ami-0a727a421bd5a51a3"
   instance_type = "t2.micro"
 }
