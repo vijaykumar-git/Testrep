@@ -27,7 +27,7 @@ provider "aws" {
 }
  
 
-resource "aws_instance" "newec3" {
-  ami           = "ami-0a727a421bd5a51a3"
+resource "aws_instance" "web" {
+  ami           = "ami-830c94e3"
   instance_type = "t2.micro"
 }
